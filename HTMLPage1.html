@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <script src="Web_Odev_2_3/myScript.js"></script>
+
+    <link href="Web_Odev_2_3/Style.css" rel="stylesheet" />
+
+    <title>Basit Hesap Makinesi</title>
+</head>
+<body>
+    <div class="calculator">
+        <form name="form">
+            <input class="textview" name="textview" style="background-color:black;color:white" disabled/>
+        </form>
+        <table>
+            <tr>
+                <td><input class="button" style="background-color:#f2904a;color:white" type="button" value="*" onclick="ekle('*')" /></td>
+                <td><input class="button" style="background-color:#f2904a;color:white" type="button" value="/" onclick="ekle('/')" /></td>
+                <td><input class="button" style="background-color:#f2904a;color:white" type="button" value="-" onclick="ekle('-')" /></td>
+                <td><input class="button" style="background-color:#f2904a;color:white" type="button" value="+" onclick="ekle('+')" /></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="." onclick="ekle('.')" /></td>
+                <td><input class="button" type="button" value="9" onclick="ekle(9)" /></td>
+                <td><input class="button" type="button" value="8" onclick="ekle(8)" /></td>
+                <td><input class="button" type="button" value="7" onclick="ekle(7)" /></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="6" onclick="ekle(6)" /></td>
+                <td><input class="button" type="button" value="5" onclick="ekle(5)" /></td>
+                <td><input class="button" type="button" value="4" onclick="ekle(4)" /></td>
+                <td><input class="button" type="button" value="3" onclick="ekle(3)" /></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="2" onclick="ekle(2)" /></td>
+                <td><input class="button" type="button" value="1" onclick="ekle(1)" /></td>
+                <td><input class="button" type="button" value="0" onclick="ekle(0)" /></td>
+                <td><input class="button" style="background-color:#0f590e" type="button" value="=" onclick="esittir()" /></td>
+            </tr>
+            <tr>
+                <td><input class="button" style="background-color:#bf1a1a" type="button" value="C" onclick="temizle()" /></td>
+                <td colspan="3"><input class="button" style="width:208px" type="button" value="<" onclick="geriAl()" /></td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+    font-size: 25px;
+    margin: -2px;
+}
+
+.textview {
+    width: 275px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    border:none;
+}
+
+
